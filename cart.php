@@ -13,7 +13,7 @@ if (mysqli_num_rows($result) > 0) {
     header("Location:index.php");
     /*   echo $num; */
 } else {
-    $sql = "INSERT INTO `cart_info`(`UserId`, `ProductId`,`Quantity`,`Amount`) VALUES ('$UserId','$product_id',1,'$Price')";
+    $sql = "INSERT INTO `cart_info`(`UserId`, `ProductId`,`Price`,`Quantity`,`Amount`) VALUES ('$UserId','$product_id','$Price',1,'$Price')";
     if ($result = mysqli_query($connection, $sql)) {
         $sql = "SELECT * FROM `cart_info` WHERE `UserId` =  '$UserId'";
         $cart = mysqli_query($connection, $sql);

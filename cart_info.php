@@ -9,7 +9,7 @@ session_start();
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php include("index pages/links.php") ?>
-	<title>INDEX</title>
+	<title>cart info</title>
 </head>
 <style>
 .search-box {
@@ -118,6 +118,7 @@ $(document).ready(function() {
 			</li>
 		</ul>
 		<ul class=" navbar-nav ml-0 mt-2 mt-lg-0 pl-lg-5 ml-sm-0">
+
 			<?php
 			include("connect.php");
 			$UserId = $_SESSION['Id'];
@@ -154,6 +155,11 @@ $(document).ready(function() {
 	</nav>
 	<div class="row">
 		<div class="col-lg-7 mt-1" style="background-color:whitesmoke ;">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+
+				<li class="breadcrumb-item active">Cart</li>
+			</ol>
 			<h5 class=" card-header" style="text-align: center;color:black;margin-right:0px;background-color:gainsboro">
 				YOUR
 				CART PRODUCT LIST</h5>

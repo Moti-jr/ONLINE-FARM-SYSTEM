@@ -101,9 +101,9 @@
 		</div>
 		</ul>
 		<div class="jumbotron mt-1 mb-5"
-			style="background-image: url(Images/bg-3.jpg);background-size:cover;height:520px;">
+			style="background-image: url(Images/bg-3.jpg);background-size:cover;height: 512px;">
 			<center>
-				<h5 class="col-lg-4 display-4" style="color: white;;">Let Us care <span style="color: yellow;">And
+				<h5 class="col-lg-4 display-4" style="color: white;">Let Us care <span style="color: yellow;">And
 						Share Your Garden</span></h5>
 				<p class="mb-2 col-lg-5" style="color: white;font-weight:bolder">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit amet vel atque facilis vero
@@ -113,37 +113,40 @@
 			</center>
 			<div class="row mt-5">
 				<div class="col-lg-4 d-md-inline d-lg-inline d-none">
-					<div class="card text-white"
-						style="background-image: url(Images/bg-5.jpg);background-size:cover;opacity:.81;width:85%">
+					<div class="card text-black"
+						style="background-image: url(images/syngenta.jpg);background-size:cover;opacity:100;width:85%;height:100%;">
 						<div class="card-body">
-							<h5 class="card-title" style="font-weight: 700; text-align:center">DESIGN AND PLANTING</h5>
-							<p class="card-text" style="font-weight: 700;">Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Odio ipsam tempora eveniet illo aliquam, cum enim iusto quo harum et
-								deserunt numquam officiis nobis quisquam sequi eaque eligendi doloremque veritatis.</p>
-							<center><button type="button" class="btn btn-success">READ MORE</button></center>
+							<h5 class="card-title" style="font-weight: 700; text-align:center">Syngenta</h5>
+							<p class="card-text" style="font-weight: 700;">Syngenta AG is a provider of agricultural
+								science and technology, in particular seeds and pesticides, with its management
+								headquarters in Basel, Switzerland, and further locations in Chicago, Tel Aviv, and
+								Shangha</p>
+							<center><a href="https://www.syngenta.com/en" btn type="button" class="btn btn-success">READ
+									MORE</a></center>
 						</div>
 					</div>
 				</div>
 				<div class=" col-lg-4 d-md-inline d-lg-inline d-none">
-					<div class="card text-white"
-						style="background-image: url(Images/bg-4.jpeg);background-size:cover;opacity:.81;width:85%">
+					<div class="card text-black"
+						style="background-image: url(images/matsuri.jpg);background-size:cover;opacity:90;width:85%">
 						<div class="card-body">
-							<h5 class="card-title" style="font-weight: 700; text-align:center">LAWN AND GARDEN CARE</h5>
-							<p class="card-text" style="font-weight: 700;">Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Odio ipsam tempora eveniet illo aliquam, cum enim iusto quo harum et
-								deserunt numquam officiis nobis quisquam sequi eaque eligendi doloremque veritatis.</p>
+							<h5 class="card-title" style="font-weight: 700; text-align:center">MATSURI</h5>
+							<p class="card-text" style="font-weight: 700;">Matsuri belongs to the
+								Carboxinililde/Carboxamide group. It is effective both as a preventive and a curative
+								fungicide. No fungicide has been registered with this unique mode of action for the
+								control of sheath blight of paddy.</p>
 							<center><button type="button" class="btn btn-success">READ MORE</button></center>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4 d-md-inline d-lg-inline d-none">
-					<div class="card text-white"
-						style="background-image: url(Images/bg-3.jpg);background-size:cover;opacity:.81;width:85%">
+					<div class="card text-black"
+						style="background-image: url(Images/sevin.jpg);background-size:cover;opacity:90;width:85%">
 						<div class="card-body">
-							<h5 class="card-title" style="font-weight: 700; text-align:center">WATERING GARDEN</h5>
-							<p class="card-text" style="font-weight: 700;">Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Odio ipsam tempora eveniet illo aliquam, cum enim iusto quo harum et
-								deserunt numquam officiis nobis quisquam sequi eaque eligendi doloremque veritatis.</p>
+							<h5 class="card-title" style="font-weight: 700; text-align:center">SEVIN</h5>
+							<p class="card-text" style="font-weight: 700;">Sevin is a familiar insecticide brand name
+								for home gardeners used to control insects in lawns, on ornamental plants, and on
+								vegetables. Sevin and the active ingredient carbaryl are practically synonymous.</p>
 							<center><button type="button" class="btn btn-success">READ MORE</button></center>
 						</div>
 					</div>
