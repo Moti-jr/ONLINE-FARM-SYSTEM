@@ -1,4 +1,5 @@
 <?php
+session_start();
 $Message = "";
 $Username = "";
 $Password = "";
@@ -21,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         if (mysqli_num_rows($result) > 0) {
             while ($row = mysqli_fetch_assoc($result)) {
                 if ($Password == $row['Password']) {
-                    session_start();
+
                     $_SESSION['Id'] = $row['Id'];
                     $Message = '<div class="alert alert-success alert-dismissible fade show mt-2" role="alert">
                     <center><strong style="font-size:15px;padding-top:1px;padding-bottom:1px;">Login Successful</strong> </center>

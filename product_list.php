@@ -87,7 +87,7 @@ $next = $page + 1;
 					</span>
 				</div>
 				<div class="button-section mb-0 mt-2">
-					<form action="cart.php" method="post">
+					<form action="cart1.php" method="post">
 						<input type="text" name="product_id" value="<?php echo $row['product_id'] ?>" hidden>
 						<input type="text" name="UserId" value="<?php echo $_SESSION['Id'] ?>" hidden>
 						<input type="text" name="Price" value="<?php echo $row['per_unit'] ?>" hidden>
