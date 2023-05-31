@@ -19,10 +19,10 @@ if (isset($_POST['records-limit'])) {
 $limit = 8;
 $page = (isset($_GET['page']) && is_numeric($_GET['page'])) ? $_GET['page'] : 1;
 $paginationStart = ($page - 1) * $limit;
-$sql = "SELECT * FROM `product`  ORDER BY `product`.`Date Added` DESC ";
-$authors = $connection->query("SELECT * FROM product   ORDER BY `product`.`Date Added` DESC LIMIT $paginationStart, $limit")->fetchAll();
+$sql = "SELECT * FROM `products`  ORDER BY `products`.`Date Added` DESC ";
+$authors = $connection->query("SELECT * FROM products   ORDER BY `products`.`Date Added` DESC LIMIT $paginationStart, $limit")->fetchAll();
 // Get total records
-$sql = $connection->query("SELECT count(product_id) AS Id FROM product")->fetchAll();
+$sql = $connection->query("SELECT count(product_id) AS Id FROM products")->fetchAll();
 $allRecrods = $sql[0]['Id'];
 
 // Calculate total pages
@@ -36,7 +36,7 @@ $next = $page + 1;
 	style="background-color: white; position:relative;">
 	<?php foreach ($authors as $row) : ?>
 	<div class="col-lg-3 col-md-4 col-sm-6 col-xm-6 col-6 mb-3 mt-2">
-		<div class="prod_list card text-black mr-2" id="product-card" ">
+		<div class="prod_list card text-black mr-2" id="products-card" ">
                 <img class=" card-img-top px-1 pt-1" src="Images/<?php echo $row['img'] ?>" height="210px" alt=""
 			data-toggle="modal" data-target="#prod_id<?php echo $row['product_id'] ?>">
 			<!-- Modal -->

@@ -3,7 +3,7 @@ include("server/connect.php");
 $message = "";
 $name = "";
 $pass = "";
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+/*if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name = $_POST['user'];
     $pass = $_POST['pass'];
     $sql = "SELECT * FROM `admin` WHERE `username` = '$name'";
@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     } else {
         echo "CONNECTION NOT SUCCESSFUL" . mysqli_error($conn);
     }
-}
+}*/
 
 ?>
 <!DOCTYPE html>

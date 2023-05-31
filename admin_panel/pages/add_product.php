@@ -11,7 +11,6 @@ include("../controls/connect.php");
 	<link rel="stylesheet" href="../css/styles.css">
 	<title>INDEX</title>
 </head>
-
 <body>
 	<div class="mt-1" style="background-color:rgb(220, 220, 220);">
 		<?php include("../controls/navbar1.php") ?>

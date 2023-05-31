@@ -22,5 +22,6 @@ if (!$conn) {
 		echo ("Data Not Inserted") . mysqli_error($conn);
 	} else {
 		header("Location:sign_in.php");
+	
 	}
 }

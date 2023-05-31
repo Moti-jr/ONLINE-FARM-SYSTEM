@@ -172,7 +172,7 @@ session_start();
 
 						<?php foreach ($cart as $cart_id) {
 							$product_id = $cart_id['ProductId'];
-							$sql = "SELECT * FROM `product` WHERE `product_id` =  '$product_id'";
+							$sql = "SELECT * FROM `products` WHERE `product_id` =  '$product_id'";
 							$cart = mysqli_query($connection, $sql);
 							$result = mysqli_query($connection, $sql); ?>
 							<?php if (mysqli_num_rows($result) > 0) { ?>
